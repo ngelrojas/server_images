@@ -93,7 +93,7 @@ app.post('/upload-photos', async (req, res) => {
 //make uploads directory static
 app.use(express.static('uploads'))
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 9000
 
 app.listen(port, () =>
     console.info(`App is listening on port ${port}`)
